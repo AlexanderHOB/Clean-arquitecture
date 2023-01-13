@@ -31,3 +31,5 @@
         Here, that is not the case. `EmailService` does not hold the responsibility for storing and sending emails. **It delegates** them to the structs below. Its responsibility is to delegate requests for processing emails to the underlying services.
 
         > There is a difference between holding and delegating responsibility. If an adaptation of a particular code can remove the whole purpose of responsibility, we talk about holding. If that responsibility still exists even after removing a specific code, then we talk about delegation.
+
+        <span>*Source : [Practical SOLID in Golang: Single Responsibility Principle](https://levelup.gitconnected.com/practical-solid-in-golang-single-responsibility-principle-20afb8643483)*</span>
